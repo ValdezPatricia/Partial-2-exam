@@ -1,0 +1,13 @@
+#Valdez Patricia
+
+def superpower(a,b):
+	x=0
+	for x in range(b):
+		x = x + 1
+		y = pow(a,x)
+	return y
+a = int(input("Give me the number: "))
+b = int(input("Give me the power: "))
+spower = superpower(a,b)
+
+print(spower)
