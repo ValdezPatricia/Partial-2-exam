@@ -1,0 +1,15 @@
+#Valdez Patricia
+
+def fibonacci(x):
+	a = 1
+	b = 1
+	c = a + b
+	for i in range (x-1):
+		a = b
+		b = c
+		c = a + b
+	return a
+
+x = int(input("Dame un numero entero positivo: "))
+f = fibonacci(x)
+print("El fibonacci de ",x,"es ",f)
