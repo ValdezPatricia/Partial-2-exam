@@ -1,0 +1,20 @@
+#Valdez Patricia
+
+import math
+def distancia(a,b,c,d):
+	w= c - a
+	x= d - b
+	w= w*w
+	x= x*x
+	i= w+x
+	raiz= math.sqrt(i)
+	return raiz
+
+x1= int(input("Dame x1: "))
+y1= int(input("Dame y1: "))
+x2= int(input("Dame x2: "))
+y2= int(input("Dame y2: "))
+
+suma= distancia(x1,y1,x2,y2)
+
+print(suma)
